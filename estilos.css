@@ -220,7 +220,30 @@ label {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-left: auto;
+    color: #e6e216;
+  }
+  .formulario {
+    grid-template-columns: 1fr;
+  }
+
+  .formulario_btn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:950px) {
   h1 {
     font-size: 40px;
     text-align: center;
@@ -236,12 +259,11 @@ label {
     width: 100%;
   }
 }
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width:510px) {
   h1 {
     font-size: 40px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 400px;
     margin-left: auto;
     color: #e6e216;
   }
